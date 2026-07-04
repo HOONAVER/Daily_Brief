@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Brief - 아카이브</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>지난 브리핑</h1>
+  <div class="topbar-right">
+    <button id="theme-toggle" aria-label="다크모드 전환">🌙</button>
+  </div>
+</header>
+
+<main class="archive-main">
+  <input id="search-input" type="search" placeholder="검색어 입력...">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">전체</button>
+    <button class="filter-btn" data-filter="news">뉴스</button>
+    <button class="filter-btn" data-filter="common-sense">상식</button>
+    <button class="filter-btn" data-filter="english">영어</button>
+  </div>
+  <ul id="search-results"></ul>
+
+  <h2>날짜별 목록</h2>
+  <ul class="date-list">
+<li><a href="2026-07-03.html">2026-07-03</a></li>
+  </ul>
+</main>
+
+<script src="assets/archive.js"></script>
+</body>
+</html>

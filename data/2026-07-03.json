@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-03",
+  "news_global": [
+    {
+      "title": "Anthropic, 삼성과 커스텀 칩 논의 중",
+      "summary_3lines": "Anthropic이 삼성과 새로운 커스텀 AI 칩 개발을 논의하고 있는 것으로 알려졌다.\n이는 OpenAI가 브로드컴과 손잡고 자체 AI 칩을 발표한 지 약 일주일 만에 나온 소식이다.\nAI 대형 개발사들이 엔비디아 의존도를 낮추기 위해 잇따라 자체 칩 확보에 나서는 모습이다.",
+      "trivia": "커스텀 AI 칩은 특정 회사의 모델 구조에 맞춰 설계돼 범용 GPU보다 특정 연산에서 효율이 높은 반도체를 말한다."
+    },
+    {
+      "title": "저커버그, \"AI 에이전트 발전 속도 기대에 못 미쳐\"",
+      "summary_3lines": "메타 내부 회의에서 마크 저커버그 CEO가 AI 에이전트의 발전 속도가 예상보다 더디다고 언급한 것으로 전해졌다.\n메타는 최근 AI 에이전트 개발에 대규모 투자를 이어왔다.\n업계 전반의 AI 에이전트 상용화 속도에 대한 눈높이 조정이 이뤄지고 있다는 신호로 해석된다.",
+      "trivia": "AI 에이전트는 단순 대화형 챗봇을 넘어, 목표를 주면 스스로 계획을 세우고 여러 단계의 작업을 수행하는 AI 시스템을 뜻한다."
+    },
+    {
+      "title": "구글, EU 반독점 과징금 47억달러 최종 확정",
+      "summary_3lines": "구글이 EU를 상대로 낸 장기간의 항소에서 패소해 47억달러(약 6조원) 규모의 과징금을 물게 됐다.\nEU는 구글이 안드로이드에 자사 검색엔진과 브라우저를 끼워 판 행위를 문제 삼았다.\n빅테크에 대한 유럽의 반독점 규제 기조가 재확인된 사례로 평가된다.",
+      "trivia": "이번 과징금은 2018년 EU 집행위원회가 부과한 역대 최대 규모의 반독점 과징금 중 하나로, 이후 수년간 항소가 이어져 왔다."
+    },
+    {
+      "title": "구글, 25년 만에 검색창 디자인 전면 개편",
+      "summary_3lines": "구글이 25년간 유지해온 단순한 흰색 검색창 디자인을 대대적으로 개편했다.\nI/O 개발자 콘퍼런스에서 발표된 이번 변화는 텍스트 링크 목록 중심에서 벗어나려는 시도다.\n생성형 AI 검색 경쟁이 치열해지는 가운데, 검색 UI 자체의 패러다임 전환으로 풀이된다.",
+      "trivia": "구글 검색창은 1998년 창립 이후 핵심 인터페이스로 자리 잡아, 이번 개편은 구글 역사상 상징적인 변화로 꼽힌다."
+    },
+    {
+      "title": "'사일런트 힐: 타운폴', 시리즈 특유의 공포감 재현 호평",
+      "summary_3lines": "IGN이 신작 '사일런트 힐: 타운폴'의 프리뷰를 공개했다.\n1인칭 시점의 느린 템포와 긴장감이 시리즈 특유의 공포 스타일을 잘 계승했다는 평가다.\n짧은 핸즈오프 데모만으로도 시리즈 팬들의 기대감을 높이고 있다.",
+      "trivia": "'사일런트 힐'은 1999년 첫 작품이 출시된 이후 심리적 공포와 상징적 연출로 공포 게임 장르의 대표작으로 자리잡았다."
+    }
+  ],
+  "news_korea_it": [
+    {
+      "title": "AWS, AI로 항생제 내성 해법 찾는 글로벌 연구 플랫폼 지원",
+      "summary_3lines": "아마존웹서비스(AWS)가 항생제 내성(AMR) 대응을 위한 글로벌 연구 플랫폼 구축을 지원한다.\n임페리얼 칼리지 런던의 '플레밍 이니셔티브'에 클라우드·생성형 AI 기술을 제공하는 방식이다.\n항생제 내성 관련 사망자는 2050년까지 약 3900만명에 이를 것으로 전망되는 만큼, 국제 협력의 중요성이 커지고 있다.",
+      "trivia": "항생제 내성(AMR)은 세균 등 미생물이 변이를 일으켜 기존 항생제가 더 이상 듣지 않게 되는 현상으로, WHO가 지정한 주요 공중보건 위협 중 하나다."
+    },
+    {
+      "title": "유라클, 상수도 누수감시에 생성형 AI 접목…피지컬 AI 시장 공략",
+      "summary_3lines": "유라클이 상수도 누수 관리에 생성형 AI를 접목한 실증 사업에 참여한다.\n한국환경산업기술원이 추진하는 'AI 응용제품 신속상용화 지원사업'의 일환이다.\n센서·설비 데이터를 AI가 실시간 분석해 현장에 반영하는 '피지컬 AI'가 산업계의 새로운 화두로 떠오르고 있다.",
+      "trivia": "피지컬 AI는 로봇, 센서 등 물리적 장치와 결합해 실제 환경 데이터를 실시간으로 처리·행동하는 AI를 뜻하며, 소프트웨어에 국한된 기존 AI와 구분된다."
+    }
+  ],
+  "news_korea_general": [
+    {
+      "title": "이언주, 상임위원장 배정 제외에… \"정치 보복이냐\"",
+      "summary_short": "이언주 더불어민주당 의원이 국회 상임위원장 배정에서 자신이 제외된 데 대해 \"정치 보복이냐\"며 반발했다."
+    },
+    {
+      "title": "정부, 고환율 피해 中企에 14.9조 긴급경영자금 지원",
+      "summary_short": "구윤철 경제부총리가 비상경제장관회의를 주재하고, 고환율로 어려움을 겪는 중소기업에 14.9조원 규모의 긴급 경영자금을 지원하는 방안을 발표했다."
+    },
+    {
+      "title": "강남 288개 vs 옹진·신안 0개…평생교육기관도 양극화 '심각'",
+      "summary_short": "서울 강남에는 평생교육기관이 288곳인 반면 옹진·신안군은 한 곳도 없는 등 지역별 평생교육 인프라 격차가 심각한 것으로 나타났다."
+    },
+    {
+      "title": "美, 국제형사재판소 관할권 부인…전쟁 범죄 트럼프 보호?",
+      "summary_short": "미국이 국제형사재판소(ICC)의 자국민에 대한 재판 관할권을 인정하지 않겠다고 밝혔다. 법무장관 대행은 \"동의하지 않은 국가를 조약이 구속할 수 없다\"고 주장했다."
+    }
+  ],
+  "common_sense": [
+    {
+      "topic": "훈민정음 반포",
+      "category": "역사",
+      "content": "세종대왕은 1446년 훈민정음을 반포해 백성 누구나 쉽게 익힐 수 있는 문자를 보급했다. 오늘날의 한글은 이 훈민정음을 기반으로 한다."
+    },
+    {
+      "topic": "문어의 심장은 3개",
+      "category": "과학",
+      "content": "문어는 심장이 3개다. 2개는 아가미로 피를 보내고, 나머지 1개는 몸 전체로 피를 순환시키는 역할을 한다. 헤엄칠 때는 이 심장 하나가 멈춰 쉽게 지치는 이유이기도 하다."
+    },
+    {
+      "topic": "복리의 힘",
+      "category": "경제",
+      "content": "복리는 원금뿐 아니라 이미 발생한 이자에도 다시 이자가 붙는 방식이다. 같은 수익률이라도 기간이 길어질수록 단리와의 차이가 기하급수적으로 커져, 장기 투자에서 특히 중요하게 여겨진다."
+    },
+    {
+      "topic": "칸 라이언즈",
+      "category": "문화",
+      "content": "칸 라이언즈(Cannes Lions)는 매년 프랑스 칸에서 열리는 세계 최대 규모의 광고·크리에이티브 축제로, 영화제인 칸 영화제와는 별개로 운영되는 광고업계 전문 행사다."
+    }
+  ],
+  "english": {
+    "expressions": [
+      {
+        "term": "inflection point",
+        "meaning": "변곡점, 결정적 전환점",
+        "example": "The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users."
+      },
+      {
+        "term": "tradecraft",
+        "meaning": "(첩보·해킹 등에서) 은밀하게 활동하는 기술이나 수법",
+        "example": "The newly discovered malware uses clever tradecraft to remain stealthy."
+      },
+      {
+        "term": "legacy infrastructure",
+        "meaning": "오래되어 낡았지만 여전히 쓰이고 있는 기존 인프라",
+        "example": "Surging demand for AI applications exposes the limitations of legacy cloud infrastructure."
+      },
+      {
+        "term": "sonic boom",
+        "meaning": "음속 폭음 (물체가 음속을 돌파할 때 발생하는 굉음)",
+        "example": "New US rules would legalize quiet supersonic flights without the sonic boom."
+      },
+      {
+        "term": "viral stunt",
+        "meaning": "입소문을 타며 화제가 되는 파격적인 홍보 이벤트",
+        "example": "Listen Labs raised $69M after a viral billboard hiring stunt."
+      }
+    ],
+    "passage": {
+      "text": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users. The launch marks a major inflection point in the race to deliver practical AI agents to mainstream users.",
+      "translation_hint": "앤트로픽이 월요일 '코워크(Cowork)'를 출시했다. 이는 인기를 끌어온 '클로드 코드(Claude Code)' 도구의 기능을 비개발자도 쓸 수 있도록 확장한 새로운 AI 에이전트 기능이다. 이번 출시는 실용적인 AI 에이전트를 대중에게 전달하기 위한 경쟁에서 중요한 전환점으로 평가된다."
+    }
+  },
+  "review": []
+}
