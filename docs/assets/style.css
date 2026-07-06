@@ -123,6 +123,16 @@ body {
   font-style: italic;
 }
 
+.accordion-body .source-link {
+  margin-top: 4px;
+}
+
+.accordion-body .source-link a {
+  color: var(--accent);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
 .empty {
   color: var(--muted);
 }

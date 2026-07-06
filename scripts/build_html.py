@@ -6,6 +6,7 @@ docs/archive.html, docs/search-index.json(아카이브 검색용) 을 생성한�
 import glob
 import json
 import os
+import re
 import sys
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -48,12 +49,20 @@ def accordion_item(header, body_html):
 </div>"""
 
 
+def render_source_link(url):
+    if not url:
+        return ""
+    domain = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
+    return f'<p class="source-link"><a href="{esc(url)}" target="_blank" rel="noopener">원문 보기 · {esc(domain)} ↗</a></p>'
+
+
 def render_news_section(day):
     items = []
     for a in day.get("news_global", []) + day.get("news_korea_it", []):
         body = f"<p>{esc_multiline(a.get('summary_3lines'))}</p>"
         if a.get("trivia"):
             body += f'<p class="trivia">💡 {esc(a.get("trivia"))}</p>'
+        body += render_source_link(a.get("link"))
         items.append(accordion_item(esc(a.get("title")), body))
     return "\n".join(items) or '<p class="empty">오늘은 수집된 기사가 없습니다.</p>'
 
@@ -61,7 +70,8 @@ def render_news_section(day):
 def render_korea_general_section(day):
     items = []
     for a in day.get("news_korea_general", []):
-        items.append(accordion_item(esc(a.get("title")), f"<p>{esc(a.get('summary_short'))}</p>"))
+        body = f"<p>{esc(a.get('summary_short'))}</p>" + render_source_link(a.get("link"))
+        items.append(accordion_item(esc(a.get("title")), body))
     return "\n".join(items) or '<p class="empty">오늘은 수집된 뉴스가 없습니다.</p>'
 
 

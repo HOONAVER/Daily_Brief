@@ -1,0 +1,156 @@
+{
+  "date": "2026-07-06",
+  "news_global": [
+    {
+      "title": "우버, 유럽 확장 계획에 제동",
+      "summary_3lines": "우버가 지난 2월 발표한 유럽 7개국 신규 진출 계획 중 5곳이 보류 상태에 놓인 것으로 알려졌다.\n애초 2026년 내 진출을 목표로 했으나 현지 규제와 사업성 재검토가 발목을 잡은 것으로 보인다.\n우버의 공격적인 글로벌 확장 전략에 제동이 걸렸다는 평가가 나온다.",
+      "trivia": "우버는 미국 외 시장에서 현지 택시 규제, 노동법 등의 장벽에 부딪혀 진출이 지연되는 경우가 잦았다.",
+      "link": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/"
+    },
+    {
+      "title": "아마존, 미케니컬 터크 신규 가입 중단",
+      "summary_3lines": "아마존이 크라우드소싱 플랫폼 '미케니컬 터크'의 신규 고객 등록을 중단하기로 했다.\n생성형 AI가 확산되면서 사람이 처리하던 단순 작업 수요 자체가 줄어든 영향으로 풀이된다.\n서비스 종료 수순이 아니냐는 관측도 나온다.",
+      "trivia": "미케니컬 터크는 2005년 시작된 아마존의 크라우드소싱 플랫폼으로, 기업이 AI가 처리하기 어려운 단순 작업을 다수의 사람에게 소액 보수로 맡기는 방식이다.",
+      "link": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/"
+    },
+    {
+      "title": "백악관, 폭염 속 에너지 절약 웹페이지 수천 건 삭제",
+      "summary_3lines": "미국 에너지부가 역대급 폭염이 전국을 강타한 가운데 에너지 절약 관련 웹페이지 약 6000건을 삭제한 것으로 알려졌다.\n뉴욕시장이 에어컨 온도를 26도로 맞추자고 권고한 데 대한 공화당의 반발 직후여서 시점이 공교롭다는 지적이다.\n정치적 논쟁이 에너지 정책 정보 접근성 문제로까지 번지고 있다.",
+      "trivia": "미국 에너지부(DOE)는 국가 에너지 정책 수립과 에너지 효율 정보 제공을 담당하는 연방 부처다.",
+      "link": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion"
+    },
+    {
+      "title": "코지마 히데오, 실물 디스크 생산 종료에 \"두려운 미래\" 경고",
+      "summary_3lines": "소니가 PS 실물 디스크 생산을 종료하겠다고 밝힌 지 며칠 만에 코지마 히데오 감독이 우려를 표했다.\n그는 콘텐츠가 전적으로 디지털화되는 미래가 \"두렵다\"고 언급했다.\n실물 매체 소장 문화가 사라지는 것에 대한 게임업계 원로의 문제의식으로 주목받고 있다.",
+      "trivia": "코지마 히데오는 '메탈기어 솔리드', '데스 스트랜딩' 시리즈를 만든 일본의 대표적인 게임 감독이다.",
+      "link": "https://www.ign.com/articles/hideo-kojima-warns-of-frightening-digital-future-after-playstation-reveals-plan-to-end-physical-disc-production"
+    },
+    {
+      "title": "Nous Research, 오픈소스 코딩 모델 'NousCoder-14B' 공개",
+      "summary_3lines": "AI 스타트업 Nous Research가 오픈소스 경쟁 프로그래밍 모델 'NousCoder-14B'를 출시했다.\n엔비디아 최신 B200 GPU 48개로 단 4일 만에 학습시켰다는 설명이다.\n일부 대형 독점 모델과 맞먹거나 능가하는 성능을 낸다고 회사 측은 주장했다.",
+      "trivia": "Nous Research는 암호화폐 벤처펀드 패러다임의 투자를 받은 오픈소스 AI 스타트업이다.",
+      "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in"
+    }
+  ],
+  "news_korea_it": [
+    {
+      "title": "AWS, 스타트업 성장 돕는 생성형 AI 신기능 출시",
+      "summary_3lines": "AWS가 스타트업의 서비스 개발과 클라우드 전환을 지원하는 생성형 AI 기반 신규 기능을 공개했다.\n아이디어 구상부터 제품 개발, 인프라 이전, 시장 출시까지 전 과정을 AI로 지원한다는 구상이다.\n기술 창업자뿐 아니라 비기술 창업자도 쉽게 서비스를 구축할 수 있도록 돕는 것이 목표다.",
+      "trivia": "'AWS 스타트업 어드바이저'는 수천 명의 AWS 전문가 지식을 AI로 압축해 스타트업에 맞춤형 조언을 제공하는 서비스다.",
+      "link": "https://zdnet.co.kr/view/?no=20260706104931"
+    },
+    {
+      "title": "\"로봇 합성데이터, 올해가 매출 원년\"…스카이인텔리전스 대표 인터뷰",
+      "summary_3lines": "스카이인텔리전스 대표가 산업용 로봇을 위한 합성데이터 사업이 올해부터 매출로 이어지고 있다고 밝혔다.\n현재는 폐쇄 루프 방식으로 건별 진행 중이지만 효율이 검증된 만큼 양산 단계로 갈 것이라는 전망이다.\n이 회사는 엔비디아 공식 리테일 파트너로 등재된 유일한 한국 기업이기도 하다.",
+      "trivia": "합성데이터는 실제 데이터 대신 시뮬레이션으로 생성한 가상 데이터로, 수집이 어렵거나 비용이 큰 로봇·자율주행 학습에 널리 활용된다.",
+      "link": "https://zdnet.co.kr/view/?no=20260706102055"
+    }
+  ],
+  "news_korea_general": [
+    {
+      "title": "김민석, 민주당 대표 출마선언…정청래 겨냥 \"자기정치로 당 혼선\"",
+      "summary_short": "김민석 전 총리가 더불어민주당 대표 출마를 선언하며 정청래 전 대표를 겨냥해 \"자기정치의 폐해가 당정 협력에 혼선을 빚었다\"고 비판했다.",
+      "link": "https://www.hani.co.kr/arti/politics/politics_general/1266860.html"
+    },
+    {
+      "title": "오늘부터 외환시장 24시간 거래 시대 열려",
+      "summary_short": "한국 외환시장이 24시간 거래 체제로 전환됐다. 원화 국제화와 시장 접근성 개선이 기대되지만 결제 편의성은 과제로 남았다.",
+      "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=01380886645511896"
+    },
+    {
+      "title": "국제유가 하락세…OPEC+ 증산 합의에 WTI 68달러선",
+      "summary_short": "OPEC+가 5개월 연속 증산에 합의하면서 국제유가가 하락세를 보이고 있다. 브렌트유도 함께 약세를 나타냈다.",
+      "link": "https://www.newsis.com/view/NISX20260706_0003696637"
+    },
+    {
+      "title": "중소기업 10곳 중 6곳 \"국제정세에 경영악화\"…원가부담 최대",
+      "summary_short": "국제 정세 불안이 장기화하면서 중소기업 10곳 중 6곳이 경영 부담 가중을 호소했다. 공급망 불안과 원가 상승이 주요 원인으로 꼽혔다.",
+      "link": "https://www.sidae.com/article/2026070609331184330"
+    }
+  ],
+  "common_sense": [
+    {
+      "topic": "환율이 정해지는 방식",
+      "category": "경제",
+      "content": "환율은 두 나라 화폐의 교환 비율로, 외환시장에서의 수요와 공급에 따라 실시간으로 변동한다. 오늘 한국 외환시장이 24시간 거래 체제로 전환된 것도 이런 변동성에 더 유연하게 대응하기 위한 조치다."
+    },
+    {
+      "topic": "화성이 붉은 이유",
+      "category": "과학",
+      "content": "화성 표면이 붉게 보이는 것은 암석에 널리 분포한 산화철, 즉 녹 때문이다. 오랜 세월 산화 작용을 거치며 표면 전체가 붉은빛을 띠게 됐다."
+    },
+    {
+      "topic": "최초의 프로그래머, 에이다 러브레이스",
+      "category": "역사",
+      "content": "19세기 영국의 수학자 에이다 러브레이스는 찰스 배비지의 해석기관을 위한 알고리즘을 고안해 세계 최초의 컴퓨터 프로그래머로 평가받는다."
+    },
+    {
+      "topic": "재즈의 고향, 뉴올리언스",
+      "category": "문화",
+      "content": "재즈는 20세기 초 미국 뉴올리언스에서 아프리카계 미국인들의 음악적 전통이 유럽 악기와 만나며 탄생한 음악 장르다."
+    },
+    {
+      "topic": "유니콘 기업이란",
+      "category": "경제",
+      "content": "유니콘 기업은 기업가치가 10억달러 이상으로 평가되는 비상장 스타트업을 가리키는 말이다. 상장 전 이런 기업이 드물다는 뜻에서 전설의 동물 유니콘에 빗대 이름 붙여졌다."
+    },
+    {
+      "topic": "나이 들수록 둔해지는 후각",
+      "category": "과학",
+      "content": "후각은 나이가 들면서 서서히 둔화되는 대표적인 감각 중 하나로, 뇌의 후각신경 세포 재생 능력이 떨어지는 것과 관련이 깊다."
+    }
+  ],
+  "english": {
+    "expressions": [
+      {
+        "term": "hit a speed bump",
+        "meaning": "(계획 등이) 난관에 부딪히다",
+        "example": "Uber's European expansion plans may have hit a speed bump."
+      },
+      {
+        "term": "on hold",
+        "meaning": "보류된, 잠정 중단된",
+        "example": "Five of those launches are reportedly on hold."
+      },
+      {
+        "term": "the last days of",
+        "meaning": "~의 마지막 시기, 종말이 임박한 때",
+        "example": "These may be the last days of Amazon's Mechanical Turk."
+      },
+      {
+        "term": "suspiciously timed",
+        "meaning": "시점이 수상쩍은, 의도가 의심되는",
+        "example": "The deletion was suspiciously timed, following Republican outrage over the mayor's request."
+      },
+      {
+        "term": "warn of",
+        "meaning": "~에 대해 경고하다",
+        "example": "Hideo Kojima warned of a frightening digital future."
+      },
+      {
+        "term": "matches or exceeds",
+        "meaning": "~와 맞먹거나 능가하다",
+        "example": "The model matches or exceeds several larger proprietary systems."
+      },
+      {
+        "term": "mint(ed)",
+        "meaning": "(스타트업 등이 새로운 지위·자격을) 갓 획득하다, 새로 만들어내다",
+        "example": "Almost 90 new unicorns have been minted so far this year."
+      }
+    ],
+    "passage": {
+      "text": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country.",
+      "translation_hint": "미국 에너지부가 역사적인 폭염이 전국을 휩쓰는 가운데 에너지 절약 관련 웹페이지 약 6000건을 삭제한 것으로 알려졌다."
+    }
+  },
+  "review": [
+    {
+      "from_date": "2026-07-05",
+      "content": "어제 배운 영어표현 burn up(대기권에서 타서 소멸하다) 기억나시나요? 오늘 기사의 '두려운 미래'처럼, 무언가 서서히 사라지는 상황을 표현할 때 응용해보세요."
+    },
+    {
+      "from_date": "2026-07-05",
+      "content": "어제 상식으로 소개했던 '아메리카노 이름의 유래' 기억하시나요? 익숙한 것들의 유래를 알면 소소한 대화 소재가 늘어납니다."
+    }
+  ]
+}

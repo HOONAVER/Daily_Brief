@@ -23,15 +23,17 @@
 ### 2.1 게임/IT/AI 뉴스 (핵심)
 - 기사별 3줄 요약
 - 💡 토막지식 1개 (기사에 나온 용어/기업/기술 배경 설명)
+- 원문 링크 포함
 
 ### 2.2 한국 주요뉴스 (서브, 상식 차원)
 - 헤드라인 + 1-2줄 간단 요약
+- 원문 링크 포함
 
 ### 2.3 오늘의 상식
-- 3-4개, 카테고리(역사/과학/경제/문화 등) 로테이션 없이 그때그때 다양하게 구성
+- 6-8개, 카테고리(역사/과학/경제/문화 등) 로테이션 없이 그때그때 다양하게 구성
 
 ### 2.4 영어 학습
-- 단어/표현 5개 내외 (뜻 + 예문), 가능하면 당일 수집 기사 원문에서 추출
+- 단어/표현 7-8개 (뜻 + 예문), 가능하면 당일 수집 기사 원문에서 추출. 원문 링크는 넣지 않음
 - 짧은 지문 1개 + 해석 연습
 
 ### 2.5 복습
@@ -111,13 +113,13 @@ API 키(ANTHROPIC_API_KEY, 네이버 API 키)는 GitHub 저장소의 **Secrets**
 {
   "date": "2026-07-03",
   "news_global": [
-    {"title": "", "summary_3lines": "", "trivia": ""}
+    {"title": "", "summary_3lines": "", "trivia": "", "link": ""}
   ],
   "news_korea_it": [
-    {"title": "", "summary_3lines": "", "trivia": ""}
+    {"title": "", "summary_3lines": "", "trivia": "", "link": ""}
   ],
   "news_korea_general": [
-    {"title": "", "summary_short": ""}
+    {"title": "", "summary_short": "", "link": ""}
   ],
   "common_sense": [
     {"topic": "", "category": "", "content": ""}
