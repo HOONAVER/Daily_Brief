@@ -108,8 +108,17 @@ body {
 }
 
 .accordion-item.open .accordion-body {
-  max-height: 600px;
+  max-height: 900px;
   padding: 0 16px 16px;
+}
+
+.accordion-body .article-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: block;
 }
 
 .accordion-body .trivia,

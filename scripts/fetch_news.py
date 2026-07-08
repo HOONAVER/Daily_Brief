@@ -49,6 +49,32 @@ def strip_html(text):
     return text
 
 
+def extract_image(entry):
+    """RSS 엔트리에서 대표 이미지 URL을 최대한 찾아본다. 없으면 빈 문자열."""
+    thumb = entry.get("media_thumbnail")
+    if thumb:
+        return thumb[0].get("url", "")
+
+    for media in entry.get("media_content", []):
+        medium = media.get("medium", "")
+        mtype = media.get("type", "")
+        if medium == "image" or mtype.startswith("image"):
+            return media.get("url", "")
+
+    for enclosure in entry.get("enclosures", []):
+        etype = enclosure.get("type", "")
+        if etype.startswith("image"):
+            return enclosure.get("href") or enclosure.get("url", "")
+
+    html_blocks = [entry.get("summary", "")]
+    html_blocks += [c.get("value", "") for c in entry.get("content", [])]
+    for html in html_blocks:
+        match = re.search(r'<img[^>]+src="([^"]+)"', html)
+        if match:
+            return match.group(1)
+    return ""
+
+
 def fetch_rss(source):
     req = urllib.request.Request(source["url"], headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=10) as resp:
@@ -63,6 +89,7 @@ def fetch_rss(source):
             "link": entry.get("link", ""),
             "published": entry.get("published", entry.get("updated", "")),
             "summary": strip_html(entry.get("summary", "")),
+            "image": extract_image(entry),
         })
     return articles
 
@@ -117,6 +144,7 @@ def fetch_naver_news(query, display=10):
             "link": item.get("originallink") or item.get("link", ""),
             "published": item.get("pubDate", ""),
             "summary": strip_html(item.get("description", "")),
+            "image": "",
         })
     return articles
 

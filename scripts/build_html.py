@@ -56,10 +56,17 @@ def render_source_link(url):
     return f'<p class="source-link"><a href="{esc(url)}" target="_blank" rel="noopener">원문 보기 · {esc(domain)} ↗</a></p>'
 
 
+def render_image(url):
+    if not url:
+        return ""
+    return f'<img class="article-image" src="{esc(url)}" alt="" loading="lazy" onerror="this.remove()">'
+
+
 def render_news_section(day):
     items = []
     for a in day.get("news_global", []) + day.get("news_korea_it", []):
-        body = f"<p>{esc_multiline(a.get('summary_3lines'))}</p>"
+        body = render_image(a.get("image"))
+        body += f"<p>{esc_multiline(a.get('summary_3lines'))}</p>"
         if a.get("trivia"):
             body += f'<p class="trivia">💡 {esc(a.get("trivia"))}</p>'
         body += render_source_link(a.get("link"))
@@ -70,7 +77,7 @@ def render_news_section(day):
 def render_korea_general_section(day):
     items = []
     for a in day.get("news_korea_general", []):
-        body = f"<p>{esc(a.get('summary_short'))}</p>" + render_source_link(a.get("link"))
+        body = render_image(a.get("image")) + f"<p>{esc(a.get('summary_short'))}</p>" + render_source_link(a.get("link"))
         items.append(accordion_item(esc(a.get("title")), body))
     return "\n".join(items) or '<p class="empty">오늘은 수집된 뉴스가 없습니다.</p>'
 

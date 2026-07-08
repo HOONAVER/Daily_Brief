@@ -25,9 +25,9 @@ SYSTEM_PROMPT = """당신은 개인용 일일 지식 브리핑을 작성하는 �
 스키마:
 {
   "date": "YYYY-MM-DD",
-  "news_global": [{"title": "", "summary_3lines": "", "trivia": "", "link": ""}],
-  "news_korea_it": [{"title": "", "summary_3lines": "", "trivia": "", "link": ""}],
-  "news_korea_general": [{"title": "", "summary_short": "", "link": ""}],
+  "news_global": [{"title": "", "summary_3lines": "", "trivia": "", "link": "", "image": ""}],
+  "news_korea_it": [{"title": "", "summary_3lines": "", "trivia": "", "link": "", "image": ""}],
+  "news_korea_general": [{"title": "", "summary_short": "", "link": "", "image": ""}],
   "common_sense": [{"topic": "", "category": "", "content": ""}],
   "english": {
     "expressions": [{"term": "", "meaning": "", "example": ""}],
@@ -37,11 +37,11 @@ SYSTEM_PROMPT = """당신은 개인용 일일 지식 브리핑을 작성하는 �
 }
 
 작성 지침:
-- news_global / news_korea_it / news_korea_general: link 필드에는 입력으로 제공된 해당 기사 원본의 link 값을 그대로 복사해서 넣는다(직접 만들어내지 않는다).
-- news_global / news_korea_it: 제공된 기사 중 흥미롭고 중요한 것 위주로 골라 각각 3줄 요약과 토막지식(용어/기업/기술 배경) 1개씩 작성.
-- news_korea_general: 제공된 한국 주요뉴스 기사 중 헤드라인과 1~2줄 간단 요약.
-- common_sense: 역사/과학/경제/문화 등 카테고리를 고정 로테이션하지 말고 그때그때 다양하게 6~8개 구성.
-- english: 오늘 수집된 기사 원문에서 가능하면 단어/표현 7~8개(뜻+예문)를 추출하고, 짧은 지문 1개와 해석 힌트를 작성. 영어 표현에는 원문 링크를 넣지 않는다.
+- news_global / news_korea_it / news_korea_general: link, image 필드에는 입력으로 제공된 해당 기사 원본의 link, image 값을 그대로 복사해서 넣는다(직접 만들어내지 않는다). image가 빈 문자열이면 그대로 빈 문자열로 둔다.
+- news_global / news_korea_it: 제공된 기사 중 흥미롭고 중요한 것 위주로 골라 각각 8~10줄 분량의 상세 요약(배경, 핵심 내용, 의미/전망을 포함)과 토막지식(용어/기업/기술 배경) 1개씩 작성. 각 줄은 \n으로 구분한다.
+- news_korea_general: 제공된 한국 주요뉴스 기사 중 헤드라인과 4~5줄 분량의 요약(배경과 맥락 포함). 각 줄은 \n으로 구분한다.
+- common_sense: 역사/과학/경제/문화 등 카테고리를 고정 로테이션하지 말고 그때그때 다양하게 10~12개 구성. 각 항목의 content는 2~3문장으로 배경까지 설명한다.
+- english: 오늘 수집된 기사 원문에서 가능하면 단어/표현 7~8개(뜻+예문)를 추출하고, 5문장 내외의 지문 1개와 해석 힌트를 작성. 영어 표현/지문에는 원문 링크를 넣지 않는다.
 - review: 함께 제공되는 최근 며칠치 데이터에서 상식/영어 표현 2~3개를 가볍게 재소환(그대로 복사하지 말고 자연스럽게 재구성). 최근 데이터가 없으면 빈 배열로 둔다.
 """
 
@@ -85,12 +85,15 @@ def generate(today):
     recent_context = load_recent_context(today)
     client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    response = client.messages.create(
+    with client.messages.stream(
         model=MODEL,
-        max_tokens=16000,
+        max_tokens=48000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": build_user_prompt(today, articles, recent_context)}],
-    )
+    ) as stream:
+        for _ in stream.text_stream:
+            pass
+        response = stream.get_final_message()
     text = "".join(block.text for block in response.content if block.type == "text")
     return extract_json(text)
 
