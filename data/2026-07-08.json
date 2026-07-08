@@ -1,0 +1,204 @@
+{
+  "date": "2026-07-08",
+  "news_global": [
+    {
+      "title": "메타, 새 이미지 생성 AI '뮤즈' 출시",
+      "summary_3lines": "메타가 슈퍼인텔리전스랩스 산하에서 처음 만든 이미지 생성 AI 모델 '뮤즈 이미지'를 공개했다.\n메타 AI 앱, 인스타그램, 왓츠앱에 우선 탑재되며 페이스북과 메신저에도 곧 적용될 예정이다.\n공개된 인스타그램 게시물을 활용해 다른 사용자를 이미지에 등장시킬 수 있는 기능도 포함돼 프라이버시 논란이 예상된다.",
+      "trivia": "메타의 '뮤즈' 계열 모델은 텍스트 프롬프트 기반 이미지 생성뿐 아니라 기존 이미지 수정 기능까지 지원하는 메타의 차세대 생성형 AI 브랜드다.",
+      "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/"
+    },
+    {
+      "title": "디스코드, AI 자동검열 오류로 무고한 이용자 대거 정지",
+      "summary_3lines": "디스코드가 AI 콘텐츠 모더레이션 시스템의 버그로 무해한 이미지에도 계정을 정지시킨 사실을 인정했다.\n5월부터 발생한 문제로, 주말 사이 추가로 200명이 부당하게 정지됐다.\n문제를 인지한 팀이 뒤늦게 원인을 파악해 수정에 나섰다.",
+      "trivia": "AI 기반 콘텐츠 모더레이션은 방대한 사용자 게시물을 실시간으로 검열하기 위해 도입되지만, 오탐(false positive)으로 인한 부당 제재 논란이 꾸준히 제기돼 왔다.",
+      "link": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
+    },
+    {
+      "title": "구글, 8월 12일 픽셀11 공개 행사 예고",
+      "summary_3lines": "구글이 뉴욕에서 8월 12일 저녁 6시(현지시간)에 '메이드 바이 구글' 행사를 연다.\n픽셀11 시리즈 신제품이 공개될 예정이며, 가격 인상 가능성도 제기된다.\n행사가 이례적으로 저녁 시간대에 열리는 점도 주목받고 있다.",
+      "trivia": "'메이드 바이 구글'은 구글이 매년 가을 픽셀 스마트폰, 워치 등 자체 하드웨어 신제품을 공개하는 연례 행사다.",
+      "link": "https://www.theverge.com/tech/962313/made-by-google-pixel-11-launch-event"
+    },
+    {
+      "title": "Claude Cowork, 모바일·웹으로 확장",
+      "summary_3lines": "앤트로픽의 AI 에이전트 플랫폼 'Claude Cowork'가 모바일과 웹에서도 처음 지원된다.\n기존에는 맥OS·윈도우 데스크톱 앱에서만 이용 가능했다.\n책상에서 작업을 시작하고 휴대폰으로 진행 상황을 확인한 뒤, 노트북 없이도 결과물을 받을 수 있다.",
+      "trivia": "Claude Cowork는 코딩 지식이 없는 일반 사용자도 파일 작업을 자동화할 수 있도록 만든 앤트로픽의 에이전트 도구로, 약 1주일 반 만에 개발된 것으로 알려졌다.",
+      "link": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+    },
+    {
+      "title": "미국 수출규제에 中 딥시크, 자체 반도체 생산 추진",
+      "summary_3lines": "중국 AI 기업 딥시크가 자체 칩 개발에 나섰다는 보도가 나왔다.\n미국의 대중 반도체 수출 통제에 대응해 엔비디아·화웨이 의존도를 낮추려는 시도다.\n아직 초기 단계이지만 중국 AI 업계의 반도체 자립 움직임을 보여주는 사례로 평가된다.",
+      "trivia": "미국은 국가안보를 이유로 첨단 AI 반도체의 대중 수출을 제한해왔으며, 이는 중국 AI 기업들의 컴퓨팅 자원 확보 전략에 큰 영향을 미치고 있다.",
+      "link": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/"
+    },
+    {
+      "title": "둠 개발사 id 소프트웨어, 엑스박스 구조조정으로 직원 절반 감축",
+      "summary_3lines": "엑스박스 대규모 감원의 일환으로 '둠' 개발사 id 소프트웨어 인력이 약 50% 줄어든 것으로 전해졌다.\n한 소식통은 90명 이상의 감원이 있었다고 전했으며, QA 부서 타격이 특히 컸다고 밝혔다.\n마이크로소프트의 게임 사업 전반 구조조정이 이어지는 가운데 나온 소식이다.",
+      "trivia": "id 소프트웨어는 1990년대 '둠', '퀘이크' 등으로 1인칭 슈팅 게임 장르를 개척한 전설적인 개발사다.",
+      "link": "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs"
+    }
+  ],
+  "news_korea_it": [
+    {
+      "title": "한화에어로, NATO 방산협력 확대 나서",
+      "summary_3lines": "한화에어로스페이스가 NATO 방위산업포럼에 참석해 유럽 공급망 강화 방안을 논의했다.\n유럽 각국의 재무장 움직임 속 현지 생산과 공동개발 전략으로 NATO 생태계 입지 확대를 노린다.\n유럽법인장은 안정적 공급망과 현지 생산 역량이 핵심이라고 강조했다.",
+      "trivia": "NATO(북대서양조약기구)는 1949년 창설된 미국·유럽 중심의 집단안보 동맹으로, 최근 각국의 국방비 증액 압박이 커지고 있다.",
+      "link": "https://zdnet.co.kr/view/?no=20260708092148"
+    },
+    {
+      "title": "삼성전자, PCIe 6.0 eSSD 양산…AI 데이터센터 겨냥",
+      "summary_3lines": "삼성전자가 AI 인프라에 최적화된 PCIe 6.0 기업용 SSD 'PM1763' 양산을 시작했다.\n9세대 V낸드와 4나노 신규 컨트롤러로 성능과 전력 효율을 크게 높였다.\n16TB 제품은 업계 최고 성능으로 AI 작업 처리 효율을 끌어올릴 전망이다.",
+      "trivia": "PCIe는 CPU·GPU와 저장장치를 연결하는 인터페이스 표준으로, 세대가 올라갈 때마다 데이터 전송 대역폭이 약 2배씩 늘어난다.",
+      "link": "https://zdnet.co.kr/view/?no=20260708085013"
+    },
+    {
+      "title": "MS 엑스박스, 대규모 구조조정…CEO \"핵심사업 약화\" 인정",
+      "summary_3lines": "아샤 샤르마 엑스박스 CEO가 과거 무리한 사업 확장 투자가 실패했다고 인정했다.\n게임패스, 멀티플랫폼 진출 등에 자원을 분산하다 핵심 사업 집중력을 잃었다는 설명이다.\nAI 열풍으로 인한 부품·메모리 가격 상승도 하드웨어 위기 요인으로 지목됐다.",
+      "trivia": "게임패스는 마이크로소프트의 구독형 게임 서비스로, 넷플릭스와 유사한 모델을 게임 업계에 도입한 사례로 꼽힌다.",
+      "link": "https://zdnet.co.kr/view/?no=20260708092035"
+    },
+    {
+      "title": "메타 '뮤즈 이미지' 공개…초지능연구소 첫 작품",
+      "summary_3lines": "메타가 알렉산더 왕 CAIO 체제 개편 이후 처음으로 이미지 생성 AI '뮤즈 이미지'를 공개했다.\n메타 AI 챗봇을 비롯해 인스타그램, 왓츠앱 등에 탑재된다.\n공개된 인스타그램 게시물을 활용해 지인이 등장하는 이미지도 생성할 수 있다.",
+      "trivia": "메타 슈퍼인텔리전스랩스는 회사가 AI 경쟁력 강화를 위해 조직 재편에 수십억 달러를 투입해 신설한 조직이다.",
+      "link": "https://zdnet.co.kr/view/?no=20260708084624"
+    },
+    {
+      "title": "BYD 덴자Z, 유럽서 전기 슈퍼카 공개",
+      "summary_3lines": "BYD의 프리미엄 브랜드 덴자가 굿우드 페스티벌에서 고성능 전기차 '덴자Z'를 글로벌 출시한다.\n덴자는 이를 '중국 최초의 지능형 전기 슈퍼카'로 소개했다.\n유럽 시장에 먼저 출시하고 중국 출시는 이후 확정할 예정이다.",
+      "trivia": "굿우드 페스티벌 오브 스피드는 영국에서 매년 열리는 세계적인 자동차·모터스포츠 축제로, 신차 공개 무대로도 자주 활용된다.",
+      "link": "https://zdnet.co.kr/view/?no=20260708085652"
+    }
+  ],
+  "news_korea_general": [
+    {
+      "title": "美, 호르무즈 상선 공격에 이란 공습…국제유가 급등",
+      "summary_short": "미군이 호르무즈 해협 상선 공격에 대응해 이란 공습을 재개했고, 브렌트유가 3% 급등했다.",
+      "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/08/2026070890011.html"
+    },
+    {
+      "title": "국내 100대 기업 경제기여액 1731조원…1위 삼성전자",
+      "summary_short": "지난해 100대 기업 경제기여액이 전년보다 7.4% 늘어 1731조원을 기록했으며 삼성전자, 현대차가 1·2위를 차지했다.",
+      "link": "https://news.tvchosun.com/site/data/html_dir/2026/07/08/2026070890061.html"
+    },
+    {
+      "title": "국민 70%, \"한일 경제공동체 필요\"…일본도 60% 찬성",
+      "summary_short": "한일 양국 국민 다수가 경제공동체 구성에 찬성하는 것으로 조사됐다.",
+      "link": "https://www.yna.co.kr/view/AKR20260707027400003?input=1195m"
+    },
+    {
+      "title": "인천국제공항, 개항 25년 만에 누적 이용객 10억명 달성",
+      "summary_short": "인천공항이 2001년 개항 이후 25년 만에 누적 여객 10억명을 돌파했다.",
+      "link": "https://www.yna.co.kr/view/AKR20260707066200065?input=1195m"
+    },
+    {
+      "title": "구윤철 부총리, \"7월 중 원화 국제화 로드맵 발표\"",
+      "summary_short": "정부가 원화 활용도 제고를 위한 국제화 로드맵을 이달 중 확정해 발표하기로 했다.",
+      "link": "https://www.chosun.com/economy/economy_general/2026/07/08/XI2YPL3KABAZDFKXH2PPNYLFLQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+    },
+    {
+      "title": "김민석·정청래, '자기 정치' 놓고 연일 신경전",
+      "summary_short": "차기 민주당 대표를 노리는 두 사람이 서로를 '자기 정치'의 사례로 지목하며 공방을 이어갔다.",
+      "link": "https://view.asiae.co.kr/article/2026070718180544147"
+    }
+  ],
+  "common_sense": [
+    {
+      "topic": "호르무즈 해협의 전략적 중요성",
+      "category": "경제",
+      "content": "호르무즈 해협은 전 세계 원유 해상 물동량의 약 20%가 통과하는 핵심 통로로, 이곳에서의 군사적 충돌은 곧바로 국제유가 급등으로 이어진다."
+    },
+    {
+      "topic": "PCIe 인터페이스의 세대교체",
+      "category": "IT",
+      "content": "PCIe는 컴퓨터 부품 간 데이터 전송을 담당하는 표준 인터페이스로, 새 세대가 나올 때마다 대역폭이 약 2배씩 늘어나며 AI 서버 등 고성능 컴퓨팅 수요를 뒷받침한다."
+    },
+    {
+      "topic": "알파-갈 증후군이란",
+      "category": "과학",
+      "content": "진드기에 물린 후 특정 당 성분(알파-갈)에 대한 항체가 생겨 붉은 고기를 먹으면 알레르기 반응이 나타나는 질환으로, 최근 미국에서 관련 마커 보유자가 예상보다 많다는 연구가 나왔다."
+    },
+    {
+      "topic": "NATO의 탄생 배경",
+      "category": "역사",
+      "content": "북대서양조약기구(NATO)는 1949년 냉전 초기 소련의 팽창을 견제하기 위해 미국과 서유럽 국가들이 결성한 집단방위 동맹이다."
+    },
+    {
+      "topic": "인천국제공항의 성장",
+      "category": "경제",
+      "content": "2001년 개항한 인천국제공항은 25년 만에 누적 이용객 10억명을 넘기며 세계적인 허브공항으로 자리 잡았다."
+    },
+    {
+      "topic": "유니콘을 넘어선 '데카콘'",
+      "category": "경제",
+      "content": "기업가치 100억달러 이상인 비상장 스타트업은 '데카콘(decacorn)'이라 부르며, 유니콘보다 한 단계 더 희귀한 존재로 여겨진다."
+    },
+    {
+      "topic": "굿우드 페스티벌 오브 스피드",
+      "category": "문화",
+      "content": "영국에서 매년 열리는 굿우드 페스티벌 오브 스피드는 클래식카부터 최신 슈퍼카까지 한자리에서 볼 수 있는 세계적인 자동차 축제로, 완성차 업체들의 신차 공개 무대로도 활용된다."
+    }
+  ],
+  "english": {
+    "expressions": [
+      {
+        "term": "tamper with",
+        "meaning": "함부로 손대다, 조작하다",
+        "example": "Meta's glasses will turn off the camera if you tamper with the privacy light."
+      },
+      {
+        "term": "wrongfully",
+        "meaning": "부당하게, 잘못되게",
+        "example": "Discord admits an AI moderation bug wrongfully banned users over harmless images."
+      },
+      {
+        "term": "rely more on",
+        "meaning": "~에 더 의존하다",
+        "example": "Microsoft joins the AI cost-cutting trend by relying more on its own models."
+      },
+      {
+        "term": "dabble in",
+        "meaning": "가볍게 발을 들이다, 손대보다",
+        "example": "Netflix dabbles in shorter video content with its new set of publisher deals."
+      },
+      {
+        "term": "spill into",
+        "meaning": "(범위가) ~로 번지다, 확산되다",
+        "example": "The coding agent wars are spilling into the rest of the office."
+      },
+      {
+        "term": "explosive outbreak",
+        "meaning": "폭발적으로 확산되는 발병",
+        "example": "Michigan sees an explosive outbreak of a diarrheal parasite with over 700 cases."
+      },
+      {
+        "term": "squeeze on",
+        "meaning": "(비용·자원 등에 대한) 압박, 쥐어짜기",
+        "example": "The squeeze on Rust Belt electricity bills threatens Trump's manufacturing plan."
+      },
+      {
+        "term": "enforce",
+        "meaning": "(법을) 시행하다, 집행하다",
+        "example": "SCOTUS lets Texas enforce its app store law."
+      }
+    ],
+    "passage": {
+      "text": "Amid public backlash over its smart glasses, Meta announced that it will be updating its glasses with a new feature that will disable the camera when it detects that someone has tampered with or destroyed the glasses' privacy LED light.",
+      "translation_hint": "스마트 안경에 대한 여론의 반발 속에서, 메타는 프라이버시 LED 불빛이 훼손되거나 조작된 것을 감지하면 카메라를 자동으로 비활성화하는 새로운 기능을 안경에 업데이트할 것이라고 발표했다."
+    }
+  },
+  "review": [
+    {
+      "from_date": "2026-07-05",
+      "content": "며칠 전 배운 'compel(강제로 ~하게 하다)' 기억나시나요? 오늘 텍사스 앱스토어 법 관련 기사의 'enforce(시행하다)'와 함께 규제 관련 표현으로 묶어 기억해두면 좋습니다."
+    },
+    {
+      "from_date": "2026-07-06",
+      "content": "이틀 전 소개된 '유니콘 기업' 상식 기억하시나요? 오늘은 한 단계 더 나아가 기업가치 100억달러 이상인 '데카콘'이라는 개념도 함께 알아두면 좋습니다."
+    },
+    {
+      "from_date": "2026-07-06",
+      "content": "얼마 전 배운 영어표현 'hit a speed bump(난관에 부딪히다)'처럼, 오늘 기사의 'spill into(번지다)'도 사업이나 갈등이 다른 영역으로 확산될 때 자주 쓰이는 표현이니 함께 익혀두세요."
+    }
+  ]
+}
