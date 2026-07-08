@@ -87,7 +87,7 @@ def generate(today):
 
     response = client.messages.create(
         model=MODEL,
-        max_tokens=8000,
+        max_tokens=16000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": build_user_prompt(today, articles, recent_context)}],
     )

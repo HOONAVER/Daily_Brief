@@ -15,6 +15,9 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - name: Fetch news
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python scripts/fetch_news.py
       - name: Generate content
         env:
